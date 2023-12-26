@@ -22,9 +22,6 @@ public class User {
 
 	private String email;
 
-	int i = 10; //
-
-
 //	@Size(min = 4, max = 6, message = "should contain 4 letters")
 	private String pswd;
 

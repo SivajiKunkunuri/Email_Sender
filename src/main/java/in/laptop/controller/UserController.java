@@ -32,8 +32,6 @@ public class UserController {
 		generateEmail(user);
 		model.addAttribute("succ", "Successfull...@");
 		return "success";
-String str = "Sivaji";
-str.length();
 	}
 	
 	private void generateEmail(User user) {
