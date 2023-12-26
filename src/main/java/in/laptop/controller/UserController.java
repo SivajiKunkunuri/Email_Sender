@@ -23,8 +23,6 @@ public class UserController {
 		model.addAttribute("user", new User());
 		return "index";
 	}
-
-String str = null;
 	
 	@PostMapping("/process")
 	public String processForm(Model model,@Valid User user, BindingResult br) {
