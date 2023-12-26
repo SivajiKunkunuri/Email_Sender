@@ -14,6 +14,7 @@ import jakarta.validation.Valid;
 
 @Controller
 public class UserController {
+	string s= null;
 	
 	@Autowired
 	private JavaMailSender javaMailSender;
